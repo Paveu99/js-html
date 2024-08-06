@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #16242b;
+    color: white;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input {
+    margin-right: 10px;
+    padding: 5px 5px 5px 10px;
+    border-radius: 10px;
+    border: none 0px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+a {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+a:hover {
+    background-color: grey;
+}
+
+#loginLink {
+    background-color: green;
+}
+
+#logoutLink {
+    background-color: red;
+}
+
+#username {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: yellow;
+    color: black;
+    width: max-content;
+    border-radius: 10px;
+    position: absolute;
+    right: 10px;
+    top: -10px;
+}
+
+#amount {
+    color: black;
+    width: 45%;
+}
+
+#date {
+    color: black;
+    width: 45%;
+}
+
+#remove {
+    color: black;
+    width: 10%;
+}
+
+button {
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: aquamarine;
+    font-weight: 600;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: aqua;
+}
+
+#remove-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

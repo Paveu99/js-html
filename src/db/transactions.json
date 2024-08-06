@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": "1111",
+      "name": "John",
+      "email": "john.doe@email.com",
+      "password": "johndoe123"
+    },
+    {
+      "id": "2222",
+      "name": "Jan",
+      "email": "jan.kowalski@email.com",
+      "password": "JanKowalski987"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "aaaa",
+      "amount": 10000,
+      "date": "2024-07-21",
+      "userId": "1111"
+    },
+    {
+      "id": "bbbb",
+      "amount": 20,
+      "date": "2024-07-20",
+      "userId": "1111"
+    },
+    {
+      "id": "cccc",
+      "amount": 15000,
+      "date": "2024-07-15",
+      "userId": "1111"
+    },
+    {
+      "id": "dddd",
+      "amount": 5000,
+      "date": "2024-07-28",
+      "userId": "2222"
+    },
+    {
+      "id": "eeee",
+      "amount": 30000,
+      "date": "2024-07-10",
+      "userId": "2222"
+    },
+    {
+      "id": "d73f",
+      "amount": -1000,
+      "date": "2024-07-30",
+      "userId": "1111"
+    },
+    {
+      "id": "eda5",
+      "date": "123213-03-12",
+      "amount": "12345",
+      "userId": "1111"
+    }
+  ]
+}
